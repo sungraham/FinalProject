@@ -18,13 +18,9 @@
 		6611278A24A39D1C0015D761 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611278924A39D1C0015D761 /* AddToDoViewController.swift */; };
 		6611278C24A39D7A0015D761 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611278B24A39D7A0015D761 /* CompleteToDoViewController.swift */; };
 		6611278E24A39E1C0015D761 /* ToDoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611278D24A39E1C0015D761 /* ToDoTableTableViewController.swift */; };
-		668C912824A527D2005E4405 /* Walkway Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668C912724A527D1005E4405 /* Walkway Black.ttf */; };
-		668C912A24A527E2005E4405 /* Walkway Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668C912924A527E2005E4405 /* Walkway Bold.ttf */; };
-		668C912C24A527F3005E4405 /* Walkway Condensed SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668C912B24A527F3005E4405 /* Walkway Condensed SemiBold.ttf */; };
-		668C912E24A527FB005E4405 /* Walkway Expand UltraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668C912D24A527FB005E4405 /* Walkway Expand UltraBold.ttf */; };
-		668C913024A5280B005E4405 /* Walkway Expand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668C912F24A5280B005E4405 /* Walkway Expand.ttf */; };
 		668C913224A52B56005E4405 /* AllyshipDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C913124A52B56005E4405 /* AllyshipDictionaryViewController.swift */; };
 		668C913624A52B9F005E4405 /* SustainableBrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C913524A52B9F005E4405 /* SustainableBrandsViewController.swift */; };
+		7B3D17E824A6407900BC29EB /* Walkway Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B3D17E724A6407900BC29EB /* Walkway Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,13 +37,9 @@
 		6611278924A39D1C0015D761 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		6611278B24A39D7A0015D761 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		6611278D24A39E1C0015D761 /* ToDoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableTableViewController.swift; sourceTree = "<group>"; };
-		668C912724A527D1005E4405 /* Walkway Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Walkway Black.ttf"; path = "../../../../Downloads/Walkway Black.ttf"; sourceTree = "<group>"; };
-		668C912924A527E2005E4405 /* Walkway Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Walkway Bold.ttf"; path = "../../../../Downloads/Walkway Bold.ttf"; sourceTree = "<group>"; };
-		668C912B24A527F3005E4405 /* Walkway Condensed SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Walkway Condensed SemiBold.ttf"; path = "../../../../Downloads/Walkway Condensed SemiBold.ttf"; sourceTree = "<group>"; };
-		668C912D24A527FB005E4405 /* Walkway Expand UltraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Walkway Expand UltraBold.ttf"; path = "../../../../Downloads/Walkway Expand UltraBold.ttf"; sourceTree = "<group>"; };
-		668C912F24A5280B005E4405 /* Walkway Expand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Walkway Expand.ttf"; path = "../../../../Downloads/Walkway Expand.ttf"; sourceTree = "<group>"; };
 		668C913124A52B56005E4405 /* AllyshipDictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllyshipDictionaryViewController.swift; sourceTree = "<group>"; };
 		668C913524A52B9F005E4405 /* SustainableBrandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableBrandsViewController.swift; sourceTree = "<group>"; };
+		7B3D17E724A6407900BC29EB /* Walkway Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Walkway Black.ttf"; path = "../../../../Walkway Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +72,7 @@
 		6611274A24A282B30015D761 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
-				668C912624A5278A005E4405 /* Fonts */,
+				7B3D17E624A6405600BC29EB /* Fonts */,
 				6611274B24A282B30015D761 /* AppDelegate.swift */,
 				6611274D24A282B30015D761 /* SceneDelegate.swift */,
 				6611274F24A282B30015D761 /* ViewController.swift */,
@@ -99,14 +91,10 @@
 			path = FinalProject;
 			sourceTree = "<group>";
 		};
-		668C912624A5278A005E4405 /* Fonts */ = {
+		7B3D17E624A6405600BC29EB /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				668C912724A527D1005E4405 /* Walkway Black.ttf */,
-				668C912924A527E2005E4405 /* Walkway Bold.ttf */,
-				668C912B24A527F3005E4405 /* Walkway Condensed SemiBold.ttf */,
-				668C912D24A527FB005E4405 /* Walkway Expand UltraBold.ttf */,
-				668C912F24A5280B005E4405 /* Walkway Expand.ttf */,
+				7B3D17E724A6407900BC29EB /* Walkway Black.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -169,13 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668C912C24A527F3005E4405 /* Walkway Condensed SemiBold.ttf in Resources */,
 				6611275B24A282B70015D761 /* LaunchScreen.storyboard in Resources */,
 				6611275824A282B70015D761 /* Assets.xcassets in Resources */,
-				668C912824A527D2005E4405 /* Walkway Black.ttf in Resources */,
-				668C912A24A527E2005E4405 /* Walkway Bold.ttf in Resources */,
-				668C912E24A527FB005E4405 /* Walkway Expand UltraBold.ttf in Resources */,
-				668C913024A5280B005E4405 /* Walkway Expand.ttf in Resources */,
+				7B3D17E824A6407900BC29EB /* Walkway Black.ttf in Resources */,
 				6611275324A282B30015D761 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
