@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         
        brands.titleLabel!.font = UIFont.init(name: "WalkwayBlack", size: 24)
         
-        names.font = UIFont.init(name: "WalkwayBlack", size: 14)
+        names.font = UIFont.init(name: "WalkwayBlack", size: 15)
     }
 
 
